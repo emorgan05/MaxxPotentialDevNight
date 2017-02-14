@@ -15,6 +15,6 @@ $('.multi-item-carousel .item').each(function(){
   if (next.next().length>0) {
     next.next().children(':first-child').clone().appendTo($(this));
   } else {
-  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
   }
 });
